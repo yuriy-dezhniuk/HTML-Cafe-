@@ -1,0 +1,269 @@
+@media (max-width: 1024px) {
+  .inner {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    transition: all 0.5s ease;
+  }
+
+  .nav ul li {
+    display: block;
+    font-size: 1.538em;
+    line-height: 2;
+  }
+
+  #burger {
+    display: inline-block;
+  }
+
+  .luxestate-brand {
+    display: flex;
+    justify-content:space-between;
+  }
+
+  .luxestate-brand a {
+    margin-top: -10px;
+  }
+
+  .padd-left {
+    padding-left: 1.154em;
+  }
+
+  .menu-btn {
+    background-color: transparent;
+    padding: 0 1.154em;
+    line-height: 2;    
+  }
+
+  .fullscreen {
+    padding-right: 0;
+    padding-top: 0;
+  }
+
+  .fullscreen-body {
+    font-size: 0.7em;
+    padding: 0 0.769em 0 0.769em;
+  }
+
+  .fullscreen-search {
+    width: 20em;
+  }
+
+  .phone, .address {
+    display: block;
+  }
+
+  .contact-info-wrap {
+    padding: 0.5em 1.5em 0 0;
+  }
+
+  .contact-info {
+    margin-right: 0;
+  }
+
+  .scroll-down {
+    bottom: 20px;
+    left: -60px;
+  }
+
+  /*statistics start*/
+  .statistics {
+    display: block;
+      padding: 4em 0.769em 3.077em 0.769em;
+  }
+
+  .second-column {
+    justify-content: space-around;
+  }
+
+  .statistics-card {	
+    margin: 0 0.3em 2.8em 0.3em;
+  }
+  /*statistics end*/
+
+  /*rent-appartments start*/
+  .appartments-wrap {
+    justify-content: space-around;
+  }
+
+  .appartments-btn {
+    padding: 1.9em 1em;
+    margin: 4em 0 0 0;
+  }
+
+  .rent-appartments .input-group {
+    font-size: 0.7em;
+  }
+
+  /*rent-appartments end*/
+
+  /* how-it-works start */
+  .how-it-works-cards-wrap {
+    justify-content: space-around;
+  }
+  /* how-it-works end */
+
+  /* services start */
+  .services-column {
+    width: 90%;
+  }
+
+  .services h2 {
+    padding: 0.1em 0;
+  }
+  
+  .services-info {
+    padding: 0.9em 0 0 0;
+  }
+
+  .services-first-column {
+    width: 65%;
+    height: 25em;
+  }
+
+  .services-column h3 {
+    margin: 0 17.7em 0 0;
+  }
+
+  .services-column p {
+    max-width: 450px;
+    margin: 0 0 3.8em 0;
+  }
+
+  .services-column-wrap {
+    justify-content: space-around;
+  }
+  /* services end */
+  /*agents start*/
+  .slider__item {  
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .social-icons {
+    padding-right: 10px;
+  }
+
+  .social-icons a {
+    margin: 0 5px;
+  }
+  /*agents end*/
+
+/*awesome-add start*/
+  .awesome-add-column .contact-info {
+    position: relative;
+    bottom: 2em;
+    left: 0.6em;
+    display: inline-block;
+  }
+
+  .awesome-add-column .contact-info-wrap {
+    height: 80%;
+  }
+
+  .awesome-add-column > h3 {
+    padding-left: 0.7em;
+  }
+
+  .awesome-add-column > p {
+    padding-left: 0.7em;
+  }
+
+  .awesome-add-column .fa {
+    padding-left: 0.8em;
+  }
+
+  .awesome-add-middl-row .awesome-add-column .contact-info {
+    left: 1.2em !important;
+  }
+
+  .awesome-add-middl-row .awesome-add-column > h3 {
+    padding-right: 0.7em;
+    padding-left: 0;
+  }
+
+  .awesome-add-middl-row .awesome-add-column > p {
+    padding-right: 0.7em;
+    padding-left: 0;
+  }
+
+  .more-awesome-add-btn {
+    margin: 2em 0 0 0.4em;
+  }
+  /*awesome-add end*/
+
+  /*footer start*/
+  .footer-top {
+    justify-content: space-around;
+  }
+
+  .footer-top > span {
+    padding: 0 10px 10px 0;
+  }
+
+  .footer-menu ul, .footer-logo {
+    margin: 15px auto;
+  }
+
+  .copyright {
+    position: static;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  /*footer end*/
+}
+
+
+@media (max-width: 640px) {
+  .services-first-column {
+    width: 90%;
+  }
+
+  .slider__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .awesome-add-column {
+    flex-basis: 100%;
+  }
+
+  .awesome-add-row {
+    justify-content: space-around;
+  }
+
+  .awesome-add-column > h3 {
+    padding-top: 0;
+  }
+
+  .awesome-add-column-img {
+    width: 100%;
+  }
+
+  .awesome-add-middl-row .awesome-add-column-img {
+    margin: 10px auto;
+  }
+  
+  .awesome-add-middl-row .awesome-add-column .contact-info {
+    left: 0.6em !important;
+  }
+
+  .footer-top > div button {
+    padding: 2.2em 2em;
+  }
+
+  .footer-top > div .fullscreen-search {
+    width: 15em;
+    padding-left: 10px
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .awesome-add-middl-row .awesome-add-column .contact-info {
+    left: 5.7em;
+  }
+}
